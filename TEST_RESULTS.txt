@@ -1,0 +1,23 @@
+Command: python -m unittest discover -s tests -v
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+test_reports_created (test_log_analyzer.AnalyzerTests.test_reports_created) ... ok
+test_summary_counts_errors_requests_and_durations (test_log_analyzer.AnalyzerTests.test_summary_counts_errors_requests_and_durations) ... ok
+test_apache_request_and_status (test_log_analyzer.ParserTests.test_apache_request_and_status) ... ok
+test_application_error (test_log_analyzer.ParserTests.test_application_error) ... ok
+test_blank_lines_ignored (test_log_analyzer.ParserTests.test_blank_lines_ignored) ... ok
+test_warning_and_seconds_duration (test_log_analyzer.ParserTests.test_warning_and_seconds_duration) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK

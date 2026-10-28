@@ -1,0 +1,8 @@
+2026-10-28 10:01:00 INFO Application started
+2026-10-28 10:01:05 INFO User login successful duration=45ms
+2026-10-28 10:01:10 WARNING Cache response is slow duration=0.15s
+2026-10-28 10:01:15 ERROR Database connection failed
+2026-10-28 10:01:20 ERROR Database connection failed
+2026-10-28 10:02:01 INFO Report generated duration=210ms
+2026-10-28 10:02:12 DEBUG Retry counter set to 2
+2026-10-28 10:02:30 ERROR Payment gateway unavailable
